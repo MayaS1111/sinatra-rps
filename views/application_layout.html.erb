@@ -4,10 +4,23 @@
     <title>RPS Sinatra</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <style>
+    .navbar {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+
   </head>
   
   <body>
-
+    <dev class= "navbar">
+      <a href="/rock">Play Rock</a>
+      <a href="/paper">Play Paper</a>
+      <a href="/scissors">Play Scissors</a>
+    </dev>
+    
     <%= yield %>
 
   </body>
